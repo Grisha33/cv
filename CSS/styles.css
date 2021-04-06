@@ -2,6 +2,7 @@ body {
   margin: 0px;
   text-align: center;
   font-family: "Merriweather", serif;
+  color: #40514e;
 }
 
 h1 {
@@ -137,6 +138,7 @@ hr {
 .bottom-container {
   background-color: #66bfbf;
   color: #eaf6f6;
+  font-family: "Montserrat", sans-serif;
 }
 
 .footer-link {
@@ -146,13 +148,20 @@ hr {
   margin: 20px 17px auto auto;
 }
 
+.footer-link:hover {
+  color: #eaf6f6;
+  text-shadow: #66bfbf;
+  font-weight: bold;
+}
+
 .last-row {
   display: inline-block;
   margin-bottom: 15px;
+  font-size: 0.75rem;
 }
 
 #image-iulian {
-  padding-top: 5px;
+  padding-top: 100px;
   width: 10%;
 }
 
